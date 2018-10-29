@@ -1,0 +1,94 @@
+/* General  */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h3 {
+    font-family: 'Marvel', sans-serif;
+    text-transform: uppercase;
+}
+.container {
+    margin-top: 100px;
+}
+.center-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}
+.findContainer {
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Nav Bar */
+.brand-logo img {
+    position: relative;
+    top: -109px;
+    width: 400px;
+    background-position: bottom;
+}
+.nav {
+    background-color: #666;
+    box-shadow: none;
+}
+.nav-wrapper {
+    margin: 0 20px;
+
+}
+.nav-icon {
+    color: #888;
+}
+
+/* Action buttons */
+.red {
+    background-color: #eda489 !important;
+}
+.btn-large {
+    background-color: #d15555 !important;
+}
+/* #searchForm checkboxes */
+.checkbox-row .col.m3 {
+    display: inline-grid;
+}
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form { width: 100%;}
+
+/* Recipes Displayed */
+.recipes-displayed {
+    margin-top: 30px;
+}
+#spinner {
+    position: relative;
+    top: -60px;
+}
+.card-action {
+    overflow: hidden;
+}
+
+/* Shoping Cart Modal */
+.modal-content {
+    color: black;
+    line-height: 25px;
+
+}
+#spinner {
+    position: relative;
+    top: -60px;
+}
+.individualIngredient {
+    cursor:pointer;
+}
+
+#groceryModal {
+    margin-top: 0px;
+}
+
+#grocerySearch {
+    margin-bottom: 0px;
+}
